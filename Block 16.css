@@ -1,0 +1,78 @@
+/* Add this to a separate .css file or include it within a <style> tag in your HTML */
+
+/* Style the body of the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the h1 (main title) */
+h1 {
+    color: #333;
+}
+
+/* Style the grocery list container */
+#grocery-list {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+/* Style the list items */
+#grocery-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#grocery-list li {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style the user input form */
+#grocery-form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+/* Style the input fields */
+/* Increase the width, padding, and font size of the input fields */
+#item-name,
+#item-quantity {
+    width: 100%; /* Adjust the width as needed */
+    padding: 1px; /* Increase the padding for more space */
+    margin: 5px 0;
+    font-size: 16px; /* Increase the font size for better visibility */
+}
+
+
+/* Style the submit button */
+#grocery-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#grocery-form button:hover {
+    background-color: #45a049;
+}
+
+/* Style the output area */
+#output {
+    margin: 20px auto;
+    max-width: 300px;
+    color: #333;
+    font-weight: bold;
+}
